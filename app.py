@@ -25,7 +25,7 @@ if hist_button:  # al hacer clic en el botón
     st.plotly_chart(fig_1, use_container_width=True)
 elif build_hist:
     st.write('a continuación la relación entre Condición vs precio')
-    fig_3 = px.histogram(car_data, x='price', y='Condition')
+    fig_3 = px.histogram(car_data, x='price', y='condition')
     st.plotly_chart(fig_3, use_container_width=True)
 elif build_hist_2:
     st.write('a continuación los modelos de los vehículos')
