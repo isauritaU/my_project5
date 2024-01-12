@@ -10,6 +10,8 @@ build_hist = st.checkbox('Relación precio y año del modelo')
 build_hist_2 = st.checkbox('Modelos de vehículos')
 
 st.header('Catálogo de Vehículos US')
+st.markdown(
+    'A continuación te invitamos a revisar los distintos gráficos en relación a los vehiculos.')
 
 if hist_button:  # al hacer clic en el botón
     # escribir un mensaje
@@ -22,8 +24,8 @@ if hist_button:  # al hacer clic en el botón
     # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig_1, use_container_width=True)
 elif build_hist:
-    st.write('a continuación la relación entre año del modelo del vehiculo y precio')
-    fig_3 = px.histogram(car_data, x='price', y='model_year')
+    st.write('a continuación la relación entre Condición vs precio')
+    fig_3 = px.histogram(car_data, x='price', y='Condition')
     st.plotly_chart(fig_3, use_container_width=True)
 elif build_hist_2:
     st.write('a continuación los modelos de los vehículos')
@@ -33,3 +35,5 @@ elif disper_button:
     st.write('creando un gráfico de dispersión en relación kilometraje/precio')
     fig_2 = px.scatter(car_data, x="odometer", y="price")
     st.plotly_chart(fig_2, use_container_width=True)
+
+st.dataframe(car_data)
