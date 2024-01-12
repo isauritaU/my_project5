@@ -36,4 +36,4 @@ elif disper_button:
     fig_2 = px.scatter(car_data, x="odometer", y="price")
     st.plotly_chart(fig_2, use_container_width=True)
 
-st.dataframe(car_data)
+st.write(car_data)
