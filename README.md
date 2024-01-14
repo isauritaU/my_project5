@@ -7,5 +7,5 @@ Este proyecto fué un verdadero reto por lo que me tomó más tiempo pero logré
 
 [Proyecto 5](https://proyecto-5-doris-u.onrender.com/)
 [Proyecto 5 corregido] (http://192.168.43.76:8501)
-Profesor no sabía si volver a crear otra app en render o no, asi que le mando la corrección en el segundo, el gráfico de dispersión era el que veía la relación entre kilometraje y el précio, espero ahora si esté bien, gracias!!.
+Profesor no sabía si volver a crear otra app en render o no, asi que le mando la corrección en el segundo link, el gráfico de dispersión era el que veía la relación entre kilometraje y el précio, espero ahora si esté bien, gracias!!.
 
