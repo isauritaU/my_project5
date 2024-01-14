@@ -5,7 +5,8 @@ import streamlit as st
 car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
 hist_button = st.button(
     'Construir histograma de kilometraje')  # crear un botón
-disper_button = st.button('Relación de kilometraje y precio')
+disper_button = st.button(
+    'Construir gráfico de dispersión kilometraje vs precio')
 build_hist = st.checkbox('Relación precio y año del modelo')
 build_hist_2 = st.checkbox('Modelos de vehículos')
 
